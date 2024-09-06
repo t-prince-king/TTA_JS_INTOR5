@@ -11,3 +11,10 @@ for (let i = 0; i < fruits.length;i++)  {
 console.log('-------------------');
 console.log(`Total number of fruits: ${fruits.length}`)
 console.log('---- Vegetables ----');
+let n=0;
+while ( n <vegetables.length){
+    let m =n+1;
+    console.log(' '+m+'.'+ vegetables[n] );
+    n++;
+}
+
