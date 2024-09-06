@@ -18,3 +18,13 @@ while ( n <vegetables.length){
     n++;
 }
 
+console.log('-------------------');
+console.log(`Total number of vegetables: ${vegetables.length}`);
+console.log('---- Fast Food ----')
+fastFoods.forEach((food,index)=>{
+    console.log(' '+(index+1) +'.'+ food )
+});
+
+console.log('-------------------')
+console.log(`Total number of fast foods: ${fastFoods.length}`)
+console.log('=========================');
